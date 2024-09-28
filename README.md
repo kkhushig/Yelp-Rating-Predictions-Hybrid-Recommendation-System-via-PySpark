@@ -24,6 +24,8 @@ The dataset consists of several files with various aspects of user and business 
 5. **photo.json:** Contains the count of photos associated with a business.
 6. **tip.json:** Contains tips left by users and their dates.
 
+Link to dataset: https://drive.google.com/file/d/16BgwSKFDYWquiF9nwpnqkztqjFLDrt9w/view?usp=share_link
+
 ## Model Architecture
 The project implements a hybrid recommendation system with two key components:
 1. **Collaborative Filtering (Item-Item):** We use a co-rated item to item collaborative filtering technique based on the Pearson correlation coefficient. This method predicts a rating based on the similarity between items rated by the same user.
