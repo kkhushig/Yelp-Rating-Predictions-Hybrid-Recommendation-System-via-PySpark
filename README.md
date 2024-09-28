@@ -43,9 +43,8 @@ _Where α is a weighting factor (set to 0.06 in this project)._
 ## Evaluation Metrics
 The system's performance is evaluated using two key metrics:
 1. Root Mean Squared Error (RMSE): Measures the difference between predicted ratings and actual ratings.
-$$
-\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (\text{Pred}_i - \text{Rate}_i)^2}
-$$
+$`\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (\text{Pred}_i - \text{Rate}_i)^2}`$
+
 
 1. Error Distribution: Shows the absolute difference between predicted and actual ratings, divided into 5 bins:
 ```
