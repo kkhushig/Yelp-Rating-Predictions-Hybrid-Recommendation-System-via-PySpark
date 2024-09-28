@@ -8,7 +8,7 @@ In this project, I developed a hybrid recommendation system that combines item-b
 
 ## Features
 The recommendation system uses the following features extracted from the dataset to train the model:
-1.**user.json:** review_count, average_stars, useful, funny, cool, fans, compliment_hot, compliment_more, compliment_profile, compliment_cute, compliment_list, compliment_note, compliment_plain, compliment_cool, compliment_funny, compliment_writer, compliment_photos, yelping_since
+1. **user.json:** review_count, average_stars, useful, funny, cool, fans, compliment_hot, compliment_more, compliment_profile, compliment_cute, compliment_list, compliment_note, compliment_plain, compliment_cool, compliment_funny, compliment_writer, compliment_photos, yelping_since
 2. **business.json:** review_count, stars, is_open, RestaurantsPriceRange2, latitude, longitude
 3. **review_train.json:** useful, funny, cool, date
 4. **checkin.json:** time values summed
